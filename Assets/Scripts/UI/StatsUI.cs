@@ -22,21 +22,21 @@ public class StatsUI : MonoBehaviour
         
         stats += "<size=36><b><color=#FFD700>Слепая печать (не глядя на клавиатуру):</color></b></size>\n\n";
         stats += "<size=32>";
-        stats += "📊 <b>10-18 лет:</b> 40 WPM\n";
-        stats += "📊 <b>19-35 лет:</b> 50 WPM\n";
-        stats += "📊 <b>36-50 лет:</b> 45 WPM\n";
-        stats += "📊 <b>50+ лет:</b> 35 WPM\n";
+        stats += " <b>10-18 лет:</b> 40 WPM\n";
+        stats += " <b>19-35 лет:</b> 50 WPM\n";
+        stats += " <b>36-50 лет:</b> 45 WPM\n";
+        stats += " <b>50+ лет:</b> 35 WPM\n";
         stats += "</size>\n";
         
         stats += "<size=36><b><color=#87CEEB>С взглядом на клавиатуру:</color></b></size>\n\n";
         stats += "<size=32>";
-        stats += "📊 <b>10-18 лет:</b> 25 WPM\n";
-        stats += "📊 <b>19-35 лет:</b> 35 WPM\n";
-        stats += "📊 <b>36-50 лет:</b> 30 WPM\n";
-        stats += "📊 <b>50+ лет:</b> 20 WPM\n";
+        stats += " <b>10-18 лет:</b> 25 WPM\n";
+        stats += " <b>19-35 лет:</b> 35 WPM\n";
+        stats += " <b>36-50 лет:</b> 30 WPM\n";
+        stats += " <b>50+ лет:</b> 20 WPM\n";
         stats += "</size>\n";
         
-        stats += "\n<size=28><i>━━━━━━━━━━━━━━━━━━━━━━━━━━</i></size>\n\n";
+        stats += "\n<size=28><i></i></size>\n\n";
         stats += "<size=26><i>WPM = Words Per Minute (слов в минуту)</i>\n";
         stats += "<i>Среднее слово = 5 символов</i></size>";
         
