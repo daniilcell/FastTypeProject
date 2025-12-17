@@ -166,7 +166,7 @@ public class TypingTest : MonoBehaviour
         timerText.text = $"{minutes:00}:{seconds:00}:{milliseconds:00}";
     }
     
-    private void EndTest()
+    public void EndTest()
     {
         testActive = false;
         if (inputField != null)

@@ -17,8 +17,8 @@ public class StatsUI : MonoBehaviour
     public void DisplayStats()
     {
         if (statsText == null) return;
-        
-        string stats = "<size=50><b>МИРОВАЯ СТАТИСТИКА СКОРОСТИ ПЕЧАТИ</b></size>\n\n";
+        string stats = "\n\n";
+        stats += "<size=40><b>ПОКАЗАТЕЛЬ СКОРОСТИ ПЕЧАТИ</b></size>\n\n";
         
         stats += "<size=36><b><color=#FFD700>Слепая печать (не глядя на клавиатуру):</color></b></size>\n\n";
         stats += "<size=32>";
